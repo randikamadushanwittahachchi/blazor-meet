@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Randika\\Project_App\\VideoConferenceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\videoconferenceapp\\client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\videoconferenceapp\\basedlibrary\\basedlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\basedlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\VideoConferenceApp\\Client\\Client.csproj",
+              "RelativeDocumentMoniker": "Client\\Client.csproj",
+              "ToolTip": "C:\\Randika\\Project_App\\VideoConferenceApp\\Client\\Client.csproj",
+              "RelativeToolTip": "Client\\Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-18T18:57:46.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasedLibrary",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\VideoConferenceApp\\BasedLibrary\\BasedLibrary.csproj",
+              "RelativeDocumentMoniker": "BasedLibrary\\BasedLibrary.csproj",
+              "ToolTip": "C:\\Randika\\Project_App\\VideoConferenceApp\\BasedLibrary\\BasedLibrary.csproj",
+              "RelativeToolTip": "BasedLibrary\\BasedLibrary.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-18T18:57:39.042Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
