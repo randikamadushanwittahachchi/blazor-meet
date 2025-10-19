@@ -1,0 +1,41 @@
+﻿<FluentAppBar Style="height:100%" Class="bg-primary-subtle" Orientation="Orientation.Horizontal">
+
+    <FluentLabel Typo="Typography.Header"
+    Class=" fw-bold fs-3 text-info p-2"
+    Style="font-family:'Times New Roman', Times, serif">
+        VCF
+    </FluentLabel>
+
+    <FluentAppBarItem Href="#"
+    Match="NavLinkMatch.All"
+    IconRest="LoginIcon()"
+    IconActive="LoginIcon(active:true)"
+    Text="Login"
+    OnClick="HandelOnLoginClick"/>
+
+    <FluentAppBarItem Href="/register"
+    Match="NavLinkMatch.All"
+    IconRest="RegisterIcon()"
+    IconActive="RegisterIcon(active:true)"
+    Text="Register"
+    OnClick="HandelOnRegisterClick"/>
+
+</FluentAppBar>
+
+@code {
+    private void HandelOnLoginClick(IAppBarItem item)
+        => NavManager.NavigateTo("/login");
+
+    private void HandelOnRegisterClick()
+        => NavManager.NavigateTo("/register");
+
+
+    private static Icon LoginIcon(bool active = false) =>
+        active ? new Icons.Filled.Size24.PersonAccounts()
+               : new Icons.Regular.Size24.PersonAccounts();
+
+    private static Icon RegisterIcon(bool active = false) =>
+        active ? new Icons.Filled.Size24.PersonAdd()
+               : new Icons.Regular.Size24.PersonAdd();
+
+}

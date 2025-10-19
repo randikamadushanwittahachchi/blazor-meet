@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Randika\\Project_App\\BlazorMeet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\blazormeet\\client\\pages\\component\\footer\\footercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\pages\\component\\footer\\footercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\blazormeet\\client\\layout\\admin\\adminlandinglayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\layout\\admin\\adminlandinglayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\blazormeet\\client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\blazormeet\\client\\pages\\component\\header\\headercomponet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\pages\\component\\header\\headercomponet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\blazormeet\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\blazormeet\\client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\dtos\\response\\generalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\dtos\\response\\generalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\dtos\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\dtos\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\dtos\\response\\authentication\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\dtos\\response\\authentication\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\dtos\\request\\authentication\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\dtos\\request\\authentication\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\dtos\\request\\authentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\dtos\\request\\authentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\blazormeet\\client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FooterComponent.razor",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Pages\\Component\\Footer\\FooterComponent.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Component\\Footer\\FooterComponent.razor",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Pages\\Component\\Footer\\FooterComponent.razor",
+              "RelativeToolTip": "Client\\Pages\\Component\\Footer\\FooterComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-19T10:44:34.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HeaderComponet.razor",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Pages\\Component\\Header\\HeaderComponet.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Component\\Header\\HeaderComponet.razor",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Pages\\Component\\Header\\HeaderComponet.razor*",
+              "RelativeToolTip": "Client\\Pages\\Component\\Header\\HeaderComponet.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T19:46:47.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminLandingLayout.razor",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Layout\\Admin\\AdminLandingLayout.razor",
+              "RelativeDocumentMoniker": "Client\\Layout\\Admin\\AdminLandingLayout.razor",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Layout\\Admin\\AdminLandingLayout.razor*",
+              "RelativeToolTip": "Client\\Layout\\Admin\\AdminLandingLayout.razor*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T19:45:34.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T19:41:17.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\App.razor",
+              "RelativeDocumentMoniker": "Client\\App.razor",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\App.razor",
+              "RelativeToolTip": "Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T19:41:08.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "Client\\_Imports.razor",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\_Imports.razor",
+              "RelativeToolTip": "Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T19:41:06.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GeneralResponse.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Response\\GeneralResponse.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\DTOs\\Response\\GeneralResponse.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Response\\GeneralResponse.cs",
+              "RelativeToolTip": "BasedLibrary\\DTOs\\Response\\GeneralResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T19:40:14.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataResponse.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Response\\DataResponse.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\DTOs\\Response\\DataResponse.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Response\\DataResponse.cs",
+              "RelativeToolTip": "BasedLibrary\\DTOs\\Response\\DataResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T19:40:12.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Response\\Authentication\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\DTOs\\Response\\Authentication\\LoginResponse.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Response\\Authentication\\LoginResponse.cs",
+              "RelativeToolTip": "BasedLibrary\\DTOs\\Response\\Authentication\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T19:39:59.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Request\\Authentication\\Register.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\DTOs\\Request\\Authentication\\Register.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Request\\Authentication\\Register.cs",
+              "RelativeToolTip": "BasedLibrary\\DTOs\\Request\\Authentication\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T19:39:50.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Request\\Authentication\\Login.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\DTOs\\Request\\Authentication\\Login.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Request\\Authentication\\Login.cs",
+              "RelativeToolTip": "BasedLibrary\\DTOs\\Request\\Authentication\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T19:39:48.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Client\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Client\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-18T19:39:10.17Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

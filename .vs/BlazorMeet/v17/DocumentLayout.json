@@ -1,14 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Randika\\Project_App\\VideoConferenceApp\\",
+  "WorkspaceRootPath": "C:\\Randika\\Project_App\\BlazorMeet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\videoconferenceapp\\client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|c:\\randika\\project_app\\blazormeet\\clientlibrary\\services\\contracts\\iuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\services\\contracts\\iuseraccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\videoconferenceapp\\basedlibrary\\basedlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\basedlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|c:\\randika\\project_app\\blazormeet\\clientlibrary\\authentication\\customhttphandler\\customhttphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\authentication\\customhttphandler\\customhttphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|c:\\randika\\project_app\\blazormeet\\clientlibrary\\helper\\implimentations\\gethttpclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\helper\\implimentations\\gethttpclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|c:\\randika\\project_app\\blazormeet\\clientlibrary\\helper\\constracts\\igethttpclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\helper\\constracts\\igethttpclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|c:\\randika\\project_app\\blazormeet\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEDF236C-1377-4CB4-B228-FE35E3B66FC6}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|c:\\randika\\project_app\\blazormeet\\clientlibrary\\helper\\implimentations\\localstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\helper\\implimentations\\localstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|c:\\randika\\project_app\\blazormeet\\clientlibrary\\constant\\httpclientconstant\\httpclientconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1F708B5-5BAA-4370-857D-DCB1B4E2390A}|ClientLibrary\\ClientLibrary.csproj|solutionrelative:clientlibrary\\constant\\httpclientconstant\\httpclientconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +43,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Client",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\VideoConferenceApp\\Client\\Client.csproj",
-              "RelativeDocumentMoniker": "Client\\Client.csproj",
-              "ToolTip": "C:\\Randika\\Project_App\\VideoConferenceApp\\Client\\Client.csproj",
-              "RelativeToolTip": "Client\\Client.csproj",
+              "Title": "IUserAccountService.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
+              "RelativeDocumentMoniker": "ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
+              "RelativeToolTip": "ClientLibrary\\Services\\Contracts\\IUserAccountService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-18T18:57:46.695Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T22:41:31.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BasedLibrary",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\VideoConferenceApp\\BasedLibrary\\BasedLibrary.csproj",
-              "RelativeDocumentMoniker": "BasedLibrary\\BasedLibrary.csproj",
-              "ToolTip": "C:\\Randika\\Project_App\\VideoConferenceApp\\BasedLibrary\\BasedLibrary.csproj",
-              "RelativeToolTip": "BasedLibrary\\BasedLibrary.csproj",
+              "Title": "CustomHttpHandler.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Authentication\\CustomHttpHandler\\CustomHttpHandler.cs",
+              "RelativeDocumentMoniker": "ClientLibrary\\Authentication\\CustomHttpHandler\\CustomHttpHandler.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Authentication\\CustomHttpHandler\\CustomHttpHandler.cs",
+              "RelativeToolTip": "ClientLibrary\\Authentication\\CustomHttpHandler\\CustomHttpHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-18T18:57:39.042Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T22:09:53.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetHttpClients.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Helper\\Implimentations\\GetHttpClients.cs",
+              "RelativeDocumentMoniker": "ClientLibrary\\Helper\\Implimentations\\GetHttpClients.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Helper\\Implimentations\\GetHttpClients.cs",
+              "RelativeToolTip": "ClientLibrary\\Helper\\Implimentations\\GetHttpClients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:01:34.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGetHttpClients.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Helper\\Constracts\\IGetHttpClients.cs",
+              "RelativeDocumentMoniker": "ClientLibrary\\Helper\\Constracts\\IGetHttpClients.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Helper\\Constracts\\IGetHttpClients.cs",
+              "RelativeToolTip": "ClientLibrary\\Helper\\Constracts\\IGetHttpClients.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:01:31.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:00:15.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocalStorage.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Helper\\Implimentations\\LocalStorage.cs",
+              "RelativeDocumentMoniker": "ClientLibrary\\Helper\\Implimentations\\LocalStorage.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Helper\\Implimentations\\LocalStorage.cs",
+              "RelativeToolTip": "ClientLibrary\\Helper\\Implimentations\\LocalStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:00:12.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HttpClientConstant.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Constant\\HttpClientConstant\\HttpClientConstant.cs",
+              "RelativeDocumentMoniker": "ClientLibrary\\Constant\\HttpClientConstant\\HttpClientConstant.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\Constant\\HttpClientConstant\\HttpClientConstant.cs",
+              "RelativeToolTip": "ClientLibrary\\Constant\\HttpClientConstant\\HttpClientConstant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:00:04.081Z",
               "EditorCaption": ""
             }
           ]

@@ -1018,6 +1018,33 @@
             "related": ".xml"
           }
         }
+      },
+      "BasedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BasedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasedLibrary.dll": {}
+        }
+      },
+      "ClientLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "BasedLibrary": "1.0.0",
+          "Blazored.LocalStorage": "4.5.0",
+          "Microsoft.AspNetCore.Components.Authorization": "9.0.10",
+          "Microsoft.Extensions.Http": "9.0.10",
+          "System.IdentityModel.Tokens.Jwt": "8.14.0"
+        },
+        "compile": {
+          "bin/placeholder/ClientLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientLibrary.dll": {}
+        }
       }
     },
     "net9.0/browser-wasm": {
@@ -2139,6 +2166,33 @@
           "lib/net6.0/Twilio.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "BasedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/BasedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BasedLibrary.dll": {}
+        }
+      },
+      "ClientLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "BasedLibrary": "1.0.0",
+          "Blazored.LocalStorage": "4.5.0",
+          "Microsoft.AspNetCore.Components.Authorization": "9.0.10",
+          "Microsoft.Extensions.Http": "9.0.10",
+          "System.IdentityModel.Tokens.Jwt": "8.14.0"
+        },
+        "compile": {
+          "bin/placeholder/ClientLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientLibrary.dll": {}
         }
       }
     }
@@ -4813,11 +4867,23 @@
         "twilio.7.13.4.nupkg.sha512",
         "twilio.nuspec"
       ]
+    },
+    "BasedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BasedLibrary/BasedLibrary.csproj",
+      "msbuildProject": "../BasedLibrary/BasedLibrary.csproj"
+    },
+    "ClientLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ClientLibrary/ClientLibrary.csproj",
+      "msbuildProject": "../ClientLibrary/ClientLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "BasedLibrary >= 1.0.0",
       "Blazored.LocalStorage >= 4.5.0",
+      "ClientLibrary >= 1.0.0",
       "Microsoft.AspNetCore.Components.Authorization >= 9.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.10",
@@ -4838,11 +4904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Randika\\Project_App\\VideoConferenceApp\\Client\\Client.csproj",
+      "projectUniqueName": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Client.csproj",
       "projectName": "Client",
-      "projectPath": "C:\\Randika\\Project_App\\VideoConferenceApp\\Client\\Client.csproj",
+      "projectPath": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Randika\\Project_App\\VideoConferenceApp\\Client\\obj\\",
+      "outputPath": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4863,7 +4929,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\BasedLibrary.csproj": {
+              "projectPath": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\BasedLibrary.csproj"
+            },
+            "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\ClientLibrary.csproj": {
+              "projectPath": "C:\\Randika\\Project_App\\BlazorMeet\\ClientLibrary\\ClientLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

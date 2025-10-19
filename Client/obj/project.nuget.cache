@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7DCIVm8hm5I=",
+  "dgSpecHash": "0LhuGtrbeF8=",
   "success": true,
-  "projectFilePath": "C:\\Randika\\Project_App\\VideoConferenceApp\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Randika\\Project_App\\BlazorMeet\\Client\\Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.10\\microsoft.aspnetcore.authorization.9.0.10.nupkg.sha512",
