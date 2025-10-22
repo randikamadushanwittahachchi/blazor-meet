@@ -3,6 +3,8 @@ using ClientLibrary.Authentication.CustomHttpHandler;
 using ClientLibrary.Constant.HttpClientConstant;
 using ClientLibrary.Helper.Constracts;
 using ClientLibrary.Helper.Implimentations;
+using ClientLibrary.Services.Contracts;
+using ClientLibrary.Services.Implimentations;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -21,10 +23,15 @@ builder.Services.AddHttpClient(HttpClientConstant.SystemApiClientName, _ =>
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-// Add LocalStorage/ Serializa/ GetHttpClients
+// Helper
+    // Add LocalStorage/ Serializa/ GetHttpClients
 builder.Services.AddScoped<IGetHttpClients,IGetHttpClients>();
 builder.Services.AddScoped<ILocalStorage, LocalStorage>();
 builder.Services.AddTransient(typeof(ISerialization<>), typeof(Serialization<>));
+
+//Service
+// UserAccount
+builder.Services.AddScoped<IUserAccountService, UserAccountService>();
 
 builder.Services.AddAuthorizationCore();
 

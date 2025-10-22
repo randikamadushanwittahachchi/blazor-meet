@@ -1,4 +1,4 @@
-﻿namespace BasedLibrary.DTOs.Response.Authentication;
+﻿namespace BasedLibrary.DTOs.UserSession;
 
 public class UserSession
 {

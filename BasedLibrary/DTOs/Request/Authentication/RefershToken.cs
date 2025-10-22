@@ -1,4 +1,4 @@
-﻿namespace BasedLibrary.DTOs.Response.Authentication;
+﻿namespace BasedLibrary.DTOs.Request.Authentication;
 
 public class RefershToken
 {

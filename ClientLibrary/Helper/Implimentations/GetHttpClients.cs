@@ -1,4 +1,4 @@
-﻿using BasedLibrary.DTOs.Response.Authentication;
+﻿using BasedLibrary.DTOs.UserSession;
 using ClientLibrary.Constant.HttpClientConstant;
 using ClientLibrary.Helper.Constracts;
 
