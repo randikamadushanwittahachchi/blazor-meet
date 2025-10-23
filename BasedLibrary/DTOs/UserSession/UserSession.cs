@@ -2,6 +2,6 @@
 
 public class UserSession
 {
-    public string? Token { get; set; }
-    public string? RefershToken { get; set; }
+    public String Token { get; set; } = String.Empty;
+    public String RefershToken { get; set; } = String.Empty;
 }

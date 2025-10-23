@@ -2,5 +2,5 @@
 
 public class RefershToken
 {
-    public string? Token { get; set; }
+    public String Token { get; set; } = String.Empty;
 }

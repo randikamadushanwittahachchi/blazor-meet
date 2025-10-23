@@ -32,7 +32,7 @@ public class GetHttpClients : IGetHttpClients
         var deserializationToken = _userSessionSerialization.DeserializationJsonString(stringToken);
         if (deserializationToken is null) return client;
 
-        client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", deserializationToken.Token);
+        client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue(HttpClientConstant.Bearer, deserializationToken.Token);
         return client;
     }
 
