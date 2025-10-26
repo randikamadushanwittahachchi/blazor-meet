@@ -1,6 +1,6 @@
 ﻿namespace BasedLibrary.DTOs.Request.Authentication;
 
-public class RefershToken
+public class RefreshToken
 {
     public String Token { get; set; } = String.Empty;
 }

@@ -8,5 +8,5 @@ public interface IUserAccountService
 {
     Task<GeneralResponse> RegisterAsync(Register user);
     Task<LoginResponse> LoginAsync(Login user);
-    Task<LoginResponse> RefreshTokenAsync(RefershToken token);
+    Task<LoginResponse> RefreshTokenAsync(RefreshToken token);
 }

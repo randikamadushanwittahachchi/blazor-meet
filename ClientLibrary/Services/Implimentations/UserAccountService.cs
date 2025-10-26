@@ -37,7 +37,7 @@ public class UserAccountService : IUserAccountService
         return result!;
     }
 
-    public async Task<LoginResponse> RefreshTokenAsync(RefershToken token)
+    public async Task<LoginResponse> RefreshTokenAsync(RefreshToken token)
     {
         var httpClient = _getHttpClients.GetPublicHttpClient();
         var response = await httpClient.PostAsJsonAsync(BaseUrlConstant.RefreshToken, token);

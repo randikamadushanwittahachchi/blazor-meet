@@ -1,18 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BasedLibrary.Constants;
+using System.ComponentModel.DataAnnotations;
 
 namespace BasedLibrary.DTOs.Request.Authentication;
 
 public class BasedAuthenticationRequest
 {
-    [Required(ErrorMessage = "Email is required.")]
-    [EmailAddress(ErrorMessage ="Please enter a valid email address.")]
+    [Required(ErrorMessage = ValidationMessages.EmailAddressRequired)]
+    [EmailAddress(ErrorMessage =ValidationMessages.InvalidEmailAddress)]
     [DataType(DataType.EmailAddress)]
-    public string Email { get; set; } = string.Empty;
+    public String Email { get; set; } = String.Empty;
 
 
-    [Required(ErrorMessage ="Password is required.")]
-    [RegularExpression(@"^(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$",
-        ErrorMessage = "Password must be at least 8 characters long and include at least one number and one special character.")]
+    [Required(ErrorMessage =ValidationMessages.PasswordRequired)]
+    [RegularExpression(@"^(?=.*[0-9])(?=.*[!@#$%^&*]).{8,}$", ErrorMessage = ValidationMessages.InvalidPassword)]
     [DataType(DataType.Password)]
-    public string Password { get; set; } = string.Empty;
+    public String Password { get; set; } = String.Empty;
 }

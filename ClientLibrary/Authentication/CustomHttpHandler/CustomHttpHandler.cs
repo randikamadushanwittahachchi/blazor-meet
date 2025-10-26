@@ -83,7 +83,7 @@ public class CustomHttpHandler : DelegatingHandler
     private async Task<string> GetRefreshToken(string refreshToken)
     {
         // Request a new token from the user account service
-        var response = await _userAccountService.RefreshTokenAsync(new RefershToken { Token= refreshToken});
+        var response = await _userAccountService.RefreshTokenAsync(new RefreshToken { Token= refreshToken});
         if (!response.flag) return string.Empty;
 
         // Serialize the new session data

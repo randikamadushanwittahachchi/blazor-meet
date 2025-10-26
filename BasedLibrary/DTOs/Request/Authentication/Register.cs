@@ -1,17 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using BasedLibrary.Constants;
+using System.ComponentModel.DataAnnotations;
 
 namespace BasedLibrary.DTOs.Request.Authentication;
 
 public class Register:BasedAuthenticationRequest
 {
-    [Required(ErrorMessage ="Name is required.")]
-    [MinLength(4,ErrorMessage = "Name shoud be minimum 4 characters.")]
-    [MaxLength(20,ErrorMessage ="Name shoud be maximum 20 characters.")]
+    [Required(ErrorMessage =ValidationMessages.NameRequired)]
+    [MinLength(4,ErrorMessage = ValidationMessages.NameMinLength)]
+    [MaxLength(20,ErrorMessage =ValidationMessages.NameMaxLength)]
     [DataType(DataType.Text)]
-    public string Name { get; set; } = string.Empty;
+    public String Name { get; set; } = String.Empty;
 
-    [Required(ErrorMessage ="Confirm password is required.")]
-    [Compare(nameof(Password),ErrorMessage ="Password does not match.")]
+    [Required(ErrorMessage =ValidationMessages.ConfirmPasswordRequired)]
+    [Compare(nameof(Password),ErrorMessage =ValidationMessages.ConfirmPasswordMismatch)]
     [DataType(DataType.Password)]
-    public string ConfirmPassword { get; set; } = string.Empty;
+    public String ConfirmPassword { get; set; } = String.Empty;
 }
