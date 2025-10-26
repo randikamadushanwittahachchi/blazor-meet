@@ -1,0 +1,12 @@
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\bin\Debug\net9.0\BasedLibrary.deps.json
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\bin\Debug\net9.0\BasedLibrary.dll
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\bin\Debug\net9.0\BasedLibrary.pdb
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\BasedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\BasedLibrary.AssemblyInfoInputs.cache
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\BasedLibrary.AssemblyInfo.cs
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\BasedLibrary.csproj.CoreCompileInputs.cache
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\BasedLibrary.sourcelink.json
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\BasedLibrary.dll
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\refint\BasedLibrary.dll
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\BasedLibrary.pdb
+C:\Randika\Project_App\BlazorMeet\BasedLibrary\obj\Debug\net9.0\ref\BasedLibrary.dll

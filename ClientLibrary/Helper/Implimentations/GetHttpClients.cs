@@ -1,6 +1,7 @@
 ﻿using BasedLibrary.DTOs.UserSession;
-using ClientLibrary.Constant.HttpClientConstant;
+using ClientLibrary.Constant.ClientConstant;
 using ClientLibrary.Helper.Constracts;
+using System.Net.Http.Headers;
 
 namespace ClientLibrary.Helper.Implimentations;
 
@@ -18,13 +19,13 @@ public class GetHttpClients : IGetHttpClients
     }
     public HttpClient GetPublicHttpClient()
     {
-        HttpClient client = _httpClientFactory.CreateClient(HttpClientConstant.SystemApiClientName);
-        client.DefaultRequestHeaders.Remove(HttpClientConstant.AuthorizationHeader);
+        HttpClient client = _httpClientFactory.CreateClient(ClientConstant.SystemApiClientName);
+        client.DefaultRequestHeaders.Remove(ClientConstant.AuthorizationHeader);
         return client;
     }
     public async Task<HttpClient?> GetPrivateHttpClientAsync()
     {
-        HttpClient client = _httpClientFactory.CreateClient(HttpClientConstant.SystemApiClientName);
+        HttpClient client = _httpClientFactory.CreateClient(ClientConstant.SystemApiClientName);
 
         var stringToken = await _localStorage.GetTokenAsync();
         if (string.IsNullOrEmpty(stringToken)) return client;
@@ -32,7 +33,7 @@ public class GetHttpClients : IGetHttpClients
         var deserializationToken = _userSessionSerialization.DeserializationJsonString(stringToken);
         if (deserializationToken is null) return client;
 
-        client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue(HttpClientConstant.Bearer, deserializationToken.Token);
+        client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(ClientConstant.Bearer, deserializationToken.Token);
         return client;
     }
 
