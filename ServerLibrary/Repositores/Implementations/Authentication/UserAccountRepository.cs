@@ -8,6 +8,7 @@ namespace ServerLibrary.Repositores.Implementations.Authentication;
 
 public class UserAccountRepository : IUserAccountRepository
 {
+
     public Task<GeneralResponse> CreateAsync(Register user)
     {
         throw new NotImplementedException();

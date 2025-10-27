@@ -9,4 +9,6 @@ public class AppDbContext: DbContext
 
     // Authentication
     public DbSet<AppUser> AppUsers { get; set; }
+    public DbSet<SystemRole> SystemRoles { get; set; }
+    public DbSet<UserRole> UserRoles { get; set; }
 }

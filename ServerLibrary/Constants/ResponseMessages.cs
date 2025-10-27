@@ -12,11 +12,14 @@ namespace ServerLibrary.Constants;
 public static class ResponseMessages
 {
     // General operation results
+    public const string CreatedSuccessfully = "Record created successfully.";
     public const string Success = "Operation completed successfully.";
     public const string Failuer = "Operation failed to complete.";
     public const string NotFound = "Requested record not found.";
     public const string AlreadyExists = "Record already exists.";
-    public const string InvalidRequest = "Invalid request data.";
+    public const string InvalidRequest = "Invalid request.";
+    public const string ValidationFailed = "One or more validation error occured.";
+
     public const string Unauthorized = "Unauthorized access.";
     public const string Forbidden = "Access denied";
     public const string SereverError = "An unexpected server error occurred";
@@ -35,6 +38,6 @@ public static class ResponseMessages
     public const string RoleInvalid = "Invalid user role.";
 
     // Data validation
-    public const string ValidationFailed = "One or more validation error occured.";
+
 
 }

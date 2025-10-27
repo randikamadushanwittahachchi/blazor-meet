@@ -12,10 +12,10 @@ public static class ValidationHelper
     ///<typeparam name="T">The Type of model to validate.</typeparam>
     ///<param name="model">The model instance to validate</param>
     ///<returns>
-    ///A list of validation error messages
-    ///Return an empty list if model is valid or null if the model is null.
+    ///boolen value of validation
+    ///Return an true if model is valid or false if the model is invalid.
     ///</returns>
-    public static List<string> ValidateModel<T>(T model) where T : class
+    public static bool ValidateModel<T>(T model) where T : class
     {
         var validationContext = new ValidationContext(model);
         var ValidationResults = new List<ValidationResult>();
@@ -24,10 +24,12 @@ public static class ValidationHelper
         Validator.TryValidateObject(model, validationContext, ValidationResults, validateAllProperties: true);
 
         // Extract and retun only the error messages
-        return ValidationResults
+        var errorMesseges = ValidationResults
             .Where(result => !string.IsNullOrWhiteSpace(result.ErrorMessage))
             .Select(result => result.ErrorMessage!)
             .ToList();
+
+        return errorMesseges.Any() ? false : true;
     }
 
 }

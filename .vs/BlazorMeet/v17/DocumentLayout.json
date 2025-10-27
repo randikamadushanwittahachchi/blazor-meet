@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Randika\\Project_App\\BlazorMeet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\repositores\\implementations\\authentication\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositores\\implementations\\authentication\\useraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\repositores\\implementations\\authentication\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositores\\implementations\\authentication\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\repositores\\contracts\\authentication\\iuserrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositores\\contracts\\authentication\\iuserrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\repositores\\contracts\\authentication\\iuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositores\\contracts\\authentication\\iuseraccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserAccountRepository.cs",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Implementations\\Authentication\\UserAccountRepository.cs",
-              "RelativeDocumentMoniker": "ServerLibrary\\Repositores\\Implementations\\Authentication\\UserAccountRepository.cs",
-              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Implementations\\Authentication\\UserAccountRepository.cs",
-              "RelativeToolTip": "ServerLibrary\\Repositores\\Implementations\\Authentication\\UserAccountRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T21:03:25.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Data\\AppDbContext.cs",
               "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:42:08.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRoleRepository.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Implementations\\Authentication\\UserRoleRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Repositores\\Implementations\\Authentication\\UserRoleRepository.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Implementations\\Authentication\\UserRoleRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Repositores\\Implementations\\Authentication\\UserRoleRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:39:36.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRoleRepository.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Contracts\\Authentication\\IUserRoleRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Repositores\\Contracts\\Authentication\\IUserRoleRepository.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Contracts\\Authentication\\IUserRoleRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Repositores\\Contracts\\Authentication\\IUserRoleRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:19:40.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserAccountRepository.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Contracts\\Authentication\\IUserAccountRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Repositores\\Contracts\\Authentication\\IUserAccountRepository.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Contracts\\Authentication\\IUserAccountRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Repositores\\Contracts\\Authentication\\IUserAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T21:03:19.21Z",
+              "WhenOpened": "2025-10-27T21:57:34.581Z",
               "EditorCaption": ""
             }
           ]

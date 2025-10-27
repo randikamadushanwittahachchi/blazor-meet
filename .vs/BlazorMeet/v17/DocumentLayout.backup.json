@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Randika\\Project_App\\BlazorMeet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2F3EC64-2F3D-4BF3-9452-5FAD54AB7148}|Server\\Server.csproj|c:\\randika\\project_app\\blazormeet\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D2F3EC64-2F3D-4BF3-9452-5FAD54AB7148}|Server\\Server.csproj|solutionrelative:server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\repositores\\implementations\\authentication\\systemrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositores\\implementations\\authentication\\systemrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\constants\\responsemessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\constants\\responsemessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\dtos\\response\\generalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\dtos\\response\\generalresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\repositores\\contracts\\authentication\\isystemrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\repositores\\contracts\\authentication\\isystemrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|c:\\randika\\project_app\\blazormeet\\serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01918986-6D90-4B3D-994D-43C191A92654}|ServerLibrary\\ServerLibrary.csproj|solutionrelative:serverlibrary\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\entities\\authentication\\systemrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\entities\\authentication\\systemrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\entities\\baseentitys\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\entities\\baseentitys\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|c:\\randika\\project_app\\blazormeet\\basedlibrary\\entities\\authentication\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9CA417A-D374-4958-A830-245776952020}|BasedLibrary\\BasedLibrary.csproj|solutionrelative:basedlibrary\\entities\\authentication\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResponseMessages.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Constants\\ResponseMessages.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Constants\\ResponseMessages.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Constants\\ResponseMessages.cs",
+              "RelativeToolTip": "ServerLibrary\\Constants\\ResponseMessages.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T23:33:26.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GeneralResponse.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Response\\GeneralResponse.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\DTOs\\Response\\GeneralResponse.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\DTOs\\Response\\GeneralResponse.cs",
+              "RelativeToolTip": "BasedLibrary\\DTOs\\Response\\GeneralResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T23:32:46.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Server.csproj",
-              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\Server\\Server.csproj",
-              "RelativeDocumentMoniker": "Server\\Server.csproj",
-              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\Server\\Server.csproj",
-              "RelativeToolTip": "Server\\Server.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-26T15:07:34.996Z",
+              "Title": "SystemRoleRepository.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Implementations\\Authentication\\SystemRoleRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Repositores\\Implementations\\Authentication\\SystemRoleRepository.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Implementations\\Authentication\\SystemRoleRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Repositores\\Implementations\\Authentication\\SystemRoleRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T23:25:34.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ServerLibrary\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T23:10:26.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SystemRole.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\Entities\\Authentication\\SystemRole.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\Entities\\Authentication\\SystemRole.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\Entities\\Authentication\\SystemRole.cs",
+              "RelativeToolTip": "BasedLibrary\\Entities\\Authentication\\SystemRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T22:45:37.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISystemRoleRepository.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Contracts\\Authentication\\ISystemRoleRepository.cs",
+              "RelativeDocumentMoniker": "ServerLibrary\\Repositores\\Contracts\\Authentication\\ISystemRoleRepository.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\ServerLibrary\\Repositores\\Contracts\\Authentication\\ISystemRoleRepository.cs",
+              "RelativeToolTip": "ServerLibrary\\Repositores\\Contracts\\Authentication\\ISystemRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T22:43:04.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\Entities\\BaseEntitys\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\Entities\\BaseEntitys\\BaseEntity.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\Entities\\BaseEntitys\\BaseEntity.cs",
+              "RelativeToolTip": "BasedLibrary\\Entities\\BaseEntitys\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T22:48:24.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\Entities\\Authentication\\AppUser.cs",
+              "RelativeDocumentMoniker": "BasedLibrary\\Entities\\Authentication\\AppUser.cs",
+              "ToolTip": "C:\\Randika\\Project_App\\BlazorMeet\\BasedLibrary\\Entities\\Authentication\\AppUser.cs",
+              "RelativeToolTip": "BasedLibrary\\Entities\\Authentication\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T22:45:56.417Z",
               "EditorCaption": ""
             }
           ]
